@@ -1,0 +1,222 @@
+body.dark{
+    background-color: black;
+}
+
+body.dark header main nav{
+    background-color: black;
+}
+
+body.dark header main nav ul li.nav-item a{
+    color: #ffffff;
+}
+
+body.dark header main nav ul li a:hover{
+    color: gray;
+}
+
+body.dark  .dropdown-menu {
+    background-color: #2b2b2b;
+}
+
+body.dark .login button{
+    border: none;
+    color: #ffffff;
+}
+
+body.dark .color-box .type h1 a{
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 9px black;
+}
+
+body.dark .color-box .subject{
+    text-shadow: 5px 6px 8px black;
+}
+
+body.dark .card{
+    box-shadow:  16px 16px 31px #535353,
+             -16px -16px 31px #292929;
+}
+
+body.dark header main nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+body.dark .nav-item a.Home{
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+
+header main nav ul li:hover{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: #96969660;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.nav-item a.Home{
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.box-shop{
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    box-shadow:  16px 16px 31px #666666,
+             -16px -16px 31px #ffffff;
+}
+
+.search{
+    display: flex;
+    justify-content: start;
+    width: 44%;
+}
+
+.red{
+    color: red;
+    text-decoration-line: line-through;
+}
+
+.green{
+    color: green;
+}
+
+.walk-box{
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.walk{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:30px;
+    animation-name:scale;
+    animation-duration:1s;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-out;
+    background-color: aqua;
+    border: 2px black  solid;
+    
+}
+
+.walk:nth-child(1){
+    background-image: url(https://aspshop.ir/wp-content/uploads/2021/10/4263183-min.jpg);
+    background-size: cover;
+    animation-delay:0.2s;
+  }
+  .walk:nth-child(2){
+    background-image: url(https://rizkaran.ir/wp-content/uploads/2022/07/%D9%82%D8%B7%D8%B9%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1.jpg);
+    background-size: cover;
+    animation-delay:0.4s;
+  }
+  .walk:nth-child(3){
+    background-image: url(https://cayenneit.com/wp-content/uploads/2021/06/10-12.jpg);
+    background-size: cover;
+    background-color:orange;
+    animation-delay:0.6s;
+  }
+  .walk:nth-child(4){
+    background-image: url(https://www.technolife.ir/wp-content/uploads/2022/10/Asus-Gaming-Laptop.jpg);
+    background-size: cover;
+    background-color:lightgreen;
+    animation-delay:0.8s;
+  }
+  .walk:nth-child(5){
+    background-image: url(https://cdn.mos.cms.futurecdn.net/c2f3BWwansb8rQ5d8bAAqb-1200-80.jpeg);
+    background-size: cover;
+    background-color:yellow;
+    animation-delay:1s;
+  }
+  @keyframes scale {
+    0%{
+      transform:translate(0,0);
+    }
+    100%{
+      transform:translate(0,-30px);
+    }
+  }
+
+.bk-color:hover{
+    background-color: green !important;
+    transition: all 1s;
+}
+
+.log-btn:hover{
+    background-color: purple !important;
+    transition: all 1s;
+}
+
+.color-box{
+    width: 100%;
+    height: 400px;
+    /* background-image: linear-gradient(90deg , red , purple , blue); */
+}
+
+.type{
+    justify-content: center;
+}
+
+.type h1 a{
+    font-size: 120px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.type h1 a{
+    color: rgb(43, 43, 43), 0.753;
+}
+
+.subject{
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: 40px;
+    color: rgb(90, 90, 235);
+}
+
+.login button:hover{
+    background-color: blue;
+    color: white;
+    transition: all 1s;
+}
+
+.dark-mode button:hover{
+    background-color: #9c9c9c;
+    transition: all 1s;
+}
+
+.color-box{
+    /* background: linear-gradient(270deg, #8303ff, #282844, #2b2b2b , rgb(82, 0, 82));
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%} */
+    background-image: url(https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_stores_Chicago_ChicagoSLIDER_feat_prod.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
